@@ -10,15 +10,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>SQI Succeed Anywhere Assignment</title>
+    
 </head>
 <body style="background-color: rgb(255,254,247);">
     <header>
         <div class="navbar-container">
             <h1>
                 <img src="./images/co.jpg" height="80px" width="80px" alt="SQI-logo">
-            </h1>
-           
+            </h1>         
 <nav>
    <ul class="parent-dropdown">
      <li class="dropdown"><a href="#">About</a>
@@ -60,6 +61,51 @@
 </nav>
         </div>
     </header>
+    <div class="topnav">
+        <a href="#home" class="active"><img id="Logo" src="./images/co.jpg" alt="SQI-logo"></a>
+        <div id="myLinks">
+       <ul class="parent-dropdown">
+     <li class="dropdown"><a href="#">About</a>
+        <ul class="dropdown-items">
+             <li>Our Story</li><br>
+              <li>Our Team</li><br>
+               <li>Campus Info</li>
+        </ul>  
+     </li>
+   <li class="dropdown"><a href="#">Programmes</a>
+    <ul class="dropdown-items">
+        <li>National Diploma</li><br>
+        <li>National Innovation Diploma</li><br>
+        <li>Professional Diploma Programme</li><br>
+        <li>Executive Professional Certificate Programme</li>
+    </ul>
+   </li>
+   <li class="dropdown"><a href="#">Admission</a>
+    <ul class="dropdown-items">
+        <li>Apply for a Programme</li><br>
+        <li>Mode of Study</li><br>
+        <li>Tuition</li><br>
+        <li>Frequently Asked Questions</li>
+    </ul>
+   </li>
+   <li class="dropdown"><a href="#">E-Portal</a>
+      <ul class="dropdown-items">
+        <li>Students</li>
+        <li>Staff</li>
+      </ul>
+   </li>
+    <li id="last-two-container">
+          SQI Scholarship
+            </li>
+            <li id="last-two-container-2">
+                News
+            </li>
+        </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
     <section>
         <div class="first-card-section">
             <div>
@@ -68,7 +114,7 @@
 </p>
 <button>Start Now</button>
             </div>
-            <div>
+            <div id="two-sqi-students">
                 <img src="./images/two sqi students.png" alt="two-sqi-students-standing" height="480px" width="480px">
             </div>
         </div>
@@ -194,7 +240,7 @@ Entry Requirements:</strong>Your passion</p><hr>
     <section>
            <div class="flex-it">
    <div class="grid-container">
-         <div class="grid-items">
+          <div class="grid-items">
            <h2>Why study at SQI?</h2>
         </div>
         <div class="grid-items">
@@ -213,7 +259,7 @@ Entry Requirements:</strong>Your passion</p><hr>
             <p>You can now choose physical class<br> experience or online classroom and learn<br> from anywhere in the world.</p>
         </div>
         <div class="grid-items">
-            <img src="./images/study open book.png" alt="free-access-to-community" height="35px" width="35px"><div></div>
+            <img src="./images/study open book.png" alt="free-access-to-community" height="35px" width="35px">
             <h3>Free access to our hub and <br>community</h3>
             <p>You will have access to our fully functional<br> hub for co-working and working on<br> projects, assignments and even begin a<br> start-up.</p>
         </div>
@@ -238,8 +284,7 @@ Entry Requirements:</strong>Your passion</p><hr>
                 <p>Students have access to prerecorded<br> videos and resources they can make use<br> of to further solidify their knowledge.</p> 
         </div>
     </div>
-    <div>
-        <div class="grid-img"><img src="./images/long img lapy.jpg" alt="" height="850px" width="200px"></div>     
+        <img class="grid-img" src="./images/long img lapy.jpg" alt="">   
     </div>
     </div>  
      </section>
@@ -269,5 +314,15 @@ Entry Requirements:</strong>Your passion</p><hr>
             </div>
         </div>
     </section>
+    <!-- <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script> -->
 </body>
 </html>
